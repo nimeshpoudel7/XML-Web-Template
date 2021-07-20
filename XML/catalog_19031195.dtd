@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ATTLIST NiyaazaStore xmlns:xsi CDATA #REQUIRED xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+<!ELEMENT NiyaazaStore (header,mainList)>
+<!ELEMENT header (Storedetails,menus)>
+<!ELEMENT Storedetails (logo,StoreName,search,address,telephonenumber,urls,Copyright)>
+<!ELEMENT logo (#PCDATA)>
+<!ATTLIST logo id ID #REQUIRED>
+<!ELEMENT StoreName (#PCDATA)>
+<!ELEMENT search (searchData)>
+<!ELEMENT address (#PCDATA)> 
+<!ELEMENT telephonenumber (#PCDATA)>
+<!ELEMENT urls (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT searchData (#PCDATA)>
+<!ELEMENT menus (mainNav,secondNav)>
+<!ELEMENT mainNav (home,shop,listen,download)>
+<!ELEMENT secondNav (home,shop,seprator,listen,download+)>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT shop (#PCDATA)> 
+<!ELEMENT seprator (#PCDATA)>
+<!ELEMENT listen (#PCDATA)>
+<!ELEMENT download (#PCDATA)>
+
+<!ELEMENT mainList (Feature,songs)>
+<!ELEMENT Feature (featureOne,featureTwo,featureThree)>
+<!ELEMENT featureOne (#PCDATA)>
+<!ELEMENT featureTwo (#PCDATA)>
+<!ELEMENT featureThree (#PCDATA)>
+
+<!ELEMENT songs (borderLine,song+)>
+<!ELEMENT borderLine (#PCDATA)>
+<!ATTLIST borderLine id ID #REQUIRED>
+<!ELEMENT song (Cover,title,moreInfo)>
+<!ATTLIST song id ID #REQUIRED>
+<!ATTLIST song rating CDATA #REQUIRED>
+<!ATTLIST song Language CDATA #REQUIRED>
+<!ATTLIST song Key CDATA #REQUIRED>
+<!ATTLIST song tags CDATA #REQUIRED>
+<!ATTLIST song play CDATA #REQUIRED>
+<!ELEMENT Cover (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST Cover id ID #REQUIRED>
+<!ATTLIST title id ID #REQUIRED>
+
+<!ELEMENT moreInfo (Songname,Genre,Producer,Writer,Singer?,band?,Date,length,Director?,Album?,Website?)>
+<!ATTLIST moreInfo id CDATA #REQUIRED>
+<!ELEMENT Songname (#PCDATA)>
+<!ATTLIST Songname id ID #IMPLIED>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT band (#PCDATA)>
+<!ELEMENT Writer (#PCDATA)>
+<!ELEMENT Singer (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT Album (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>

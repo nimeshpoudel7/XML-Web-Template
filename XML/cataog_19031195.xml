@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../css/catalog_19031195.css" type="text/css"?>
+<!DOCTYPE NiyaazaStore SYSTEM "catalog_19031195.dtd">
+<NiyaazaStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031195.xsd ">
+    
+    <!-- header-->
+    <header>
+        <Storedetails>
+          
+            <logo id="StoreLogo"></logo> 
+            
+            <StoreName>
+                <!-- informations -->
+                <![CDATA[ Niyaaza]]>
+              
+            </StoreName>
+            
+            <search>
+               <searchData>
+               Search
+                </searchData>
+
+            </search>
+            <address>
+                <!-- informations -->
+                <![CDATA[Kapan, Kathmandu]]>
+            </address>
+            <telephonenumber>
+                <!-- informations -->
+                <![CDATA[ Tel. No: 01-12345]]>
+            </telephonenumber>
+            <urls>
+                <!-- informations -->
+                <![CDATA[ Web: Niyaaza.com]]>
+            </urls>
+            <Copyright>
+                <![CDATA[© 2021 NiyaazaStore & All Rights Reserved.]]>
+            </Copyright>
+        </Storedetails>
+        <menus>
+            <!-- Secondary nav for design-->
+            
+            <mainNav>
+                <!-- nav bar design-->
+                <home>Home</home>
+                <shop>Shop</shop>
+                <listen>Listen</listen>
+                <download>Download</download>
+            </mainNav>
+            <secondNav>
+                <!-- nav bar design-->
+                <home>Home</home>
+                <shop>Shop</shop>
+                <seprator>|</seprator>
+                <listen>Listen</listen>
+                <download>Donload</download>
+                <download>Download</download>
+            </secondNav>
+        </menus>
+    </header> <!-- End of header-->
+
+    <mainList>
+        <Feature>
+         <featureOne>
+         </featureOne>
+         <featureTwo>
+         </featureTwo>
+         <featureThree>
+         </featureThree>
+            <!-- Image-->
+        </Feature>
+               <songs>
+            <!-- line-->
+     
+             <borderLine id='Latest'>
+                <![CDATA[ Latest]]>
+            </borderLine>
+            <!-- Song number6-->
+            <song id="Song6" rating="4/10" Language="English" Key="G major" tags="US" play="55055">
+                <!-- Detail of song-->
+                <Cover id="CoverImg6"></Cover>
+                <title id="title6">Heaven</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name: Heaven</Songname>
+                    <Genre>Genre: Rock</Genre>
+                    <Producer>Producer: Dann Huff</Producer>
+                    <Writer>Writer: Shy Carter</Writer>
+                     <Singer>Singer:Kane Brown</Singer>
+                    <Date>Release Date: 28 jul 2019</Date>
+                    <length>Length: 4:31</length>
+                    <Director> Director: uklak Hule</Director>
+                </moreInfo>
+            </song>
+            <!-- Song number7-->
+            <song id="Song7" rating="6/10" Language="English" Key="F minor" tags="Zyan" play="1000020">
+                <!-- Detail of song-->
+                <Cover id="CoverImg7"></Cover>
+                <title id="title7">pillow talk</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name: pillow talk</Songname>
+                    <Genre>Genre: Jazz</Genre>
+                    <Producer>Producer: Mus Els</Producer>
+                    <Writer>Writer: Zyan Malik</Writer>
+                    <Singer>Singer:Zyan Malik</Singer>
+                    <Date>Release Date: 02 Mar 2020</Date>
+                    <length>Length:  4:35</length>
+                    <Album>Album:Mine</Album>
+                </moreInfo>
+            </song>
+            <!-- Song number8-->
+            <song id="Song8" rating="7/10" Language="English" Key="Gmajor" tags="Anna" play="20202">
+                <!-- Detail of song-->
+                <Cover id="CoverImg8"></Cover>
+                <title id="title8">BedRoom</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:BedRoom</Songname>
+                    <Genre>Genre: Pop</Genre>
+                    <Producer>Producer:Hury Est</Producer>
+                    <Writer>Writer: Anne Marie</Writer>
+                    <band>Band: Anne</band>
+                    <Date>Release Date: 18 Mr 2021</Date>
+                    <length>Length: 7:14</length>
+                </moreInfo>
+            </song>
+
+             <song id="Song9" rating="9/10" Language="English" Key="C" tags="closer" play="141414">
+                <!-- Detail of song-->
+                <Cover id="CoverImg9"></Cover>
+                <title id="title9">Closer</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name: Closer</Songname>
+                    <Genre>Genre:Dubstep</Genre>
+                    <Producer>Producer: Smokers</Producer>
+                     <Writer>Writer:Juj Mario</Writer>
+                    <Singer>Singer:Smokers</Singer>
+                    <Date>Release Date: 12 Feb 2017</Date>
+                    <length>Length:  3:55</length>
+                    
+                </moreInfo>
+            </song>
+            <!-- Song number10-->
+            <song id="Song10" rating="7/10" Language="English" Key="D" tags="Best" play="20204">
+                <!-- Detail of song-->
+                <Cover id="CoverImg10"></Cover>
+                <title id="title10">Faded</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:Faded</Songname>
+                    <Genre>Genre: Pop</Genre>
+                    <Producer>Producer:Hirea</Producer>
+                    <Writer>Writer: Wakler Son</Writer>
+                      <band>Akan wakker</band>
+                    <Date>Release Date: 10 Mar 2017</Date>
+                    <length>Length: 2:25</length>
+                    <Director> Director: Merc Doal</Director>
+                    <Album>Album:Faded</Album>
+                
+                </moreInfo>
+            </song>
+            <!-- Song number11-->
+            <song id="Song11" rating="5/10" Language="English" Key="E" tags="closer" play="525225">
+                <!-- Detail of song-->
+                <Cover id="CoverImg11"></Cover>
+                <title id="title11">Friends</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name: Friends</Songname>
+                    <Genre>Genre: Country Music</Genre>
+                    <Producer>Producer: Goya Hek</Producer>
+                    <Writer>Writer:Put</Writer>
+                    <Singer>Singer:Put Chalire </Singer>
+                    <Date>Release Date:27 Mar 2022</Date>
+                    <length>Length: 4:55</length>
+                </moreInfo>
+            </song>
+
+           
+            <!-- Song 1-->
+            <song id="Song1" rating="10/10" Language="Nepali" Key="G" tags="Resham" play="99999999">
+                <!-- Detail of song-->
+                <Cover id="CoverImg1"></Cover>
+                <title id="title1">Resham</title>
+                <!-- Songs Descriptions-->
+                <moreInfo id="doubleDetail">
+                    <Songname id="songname">Name:Resham</Songname>
+                    <Genre >Genre:Nepali Flok</Genre>
+                    <Producer>Producer: Armit Gurung</Producer>
+                    <Writer>Writter:Ram Limbu</Writer>
+                    <Singer>Singer:Amrit gurung </Singer>
+                    <Date>Release Date: 17 Mar 2001</Date>
+                    <length>Length: 4:32</length>
+                     <Album>Album:Nepali Collection</Album>
+                    <Website>
+                        Website:www.nepthaya.com
+                    </Website>
+                </moreInfo>
+            </song>
+            <!-- Song2-->
+            <song id="Song2" rating="9/10" Language="English" Key="C" tags="ED" play="585420">
+                <!-- Detail of song-->
+                <Cover id="CoverImg2"></Cover>
+                <title id="title2">Perfect</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:Perfect</Songname>
+                    <Genre>Genre: Dubset</Genre>
+                    <Producer>Producer:Ed Shren</Producer>
+                    <Writer>Writer: Ed Shreen</Writer>
+                    <band>Band:Senita</band>
+                    <Date>Release Date: 8 Mar 1971</Date>
+                    <length>Length: 4:02</length>
+                </moreInfo>
+            </song>
+
+             <song id="Song3" rating="8/10" Language="English" Key="F" tags="Three" play="445030">
+                <!-- Detail of song-->
+                <Cover id="CoverImg3"></Cover>
+                <title id="title3">senorita</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:</Songname>
+                    <Genre>Genre: Progressive rock</Genre>
+                    <Producer>Producer: Bob,Gilmour</Producer>
+                    <Writer>Writer:David,Samson</Writer>
+                    <band>Band:Shawn Mendes</band>
+                    <Date>Release Date: 18 Jan 2021</Date>
+                    <length>Length: 4:34 </length>
+                </moreInfo>
+            </song>
+            <!-- Song number 4-->
+            <song id="Song4" rating="9/10" Language="English" Key="GF" tags="boby" play="050000">
+                <!-- Detail of song-->
+                <Cover id="CoverImg4"></Cover>
+                <title id="title4">sombadhan</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:sombadhan</Songname>
+                    <Genre>Genre: Country Music</Genre>
+                    <Producer>Producer: Alan Pradran</Producer>
+                    <Writer>Adrin Thapa</Writer>
+                     <band>Band: 1974AD</band>
+                    <Date>Release Date: 18 Feb 2002</Date>
+                    <length>Length: 3:32</length>
+                    <Album>Album: Gurus</Album>
+                </moreInfo>
+            </song>
+            <!-- Song number 5-->
+            <song id="Song5" rating="7/10" Language="Nepali" Key="FG" tags="1974" play="522520">
+                <!-- Detail of song-->
+                <Cover id="CoverImg5"></Cover>
+                <title id="title5">God's Plan</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:God's Plan</Songname>
+                    <Genre>Genre: Pop</Genre>
+                    <Producer>Producer: Rob pug</Producer>
+                      <Writer>Writer: Pubga Alan</Writer>
+                    <band>Band:Horizon</band>
+                    <Date>Release Date: 8 Feb 2017</Date>
+                    <length>Length: 3:02</length>
+                </moreInfo>
+            </song>
+ <song id="Song12" rating="9/10" Language="English" Key="F" tags="look" play="02020">
+                <!-- Detail of song-->
+                <Cover id="CoverImg12"></Cover>
+                <title id="title12">Night</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:Night</Songname>
+                    <Genre>Genre:Dubset</Genre>
+                    <Producer>Producer:Kiran hery</Producer>
+                    <Writer>Writer:Barin Huga</Writer>
+                    <Singer>Singer:Barry Hell</Singer>
+                    <Date>Release Date: 1 Arp 2019</Date>
+                    <length>Length: 5:55</length>
+                </moreInfo>
+            </song>
+            <!-- Song number 13-->
+            <song id="Song13" rating="7/10" Language="English" Key="F" tags="Kheu" play="15420">
+                <!-- Detail of song-->
+                <Cover id="CoverImg13"></Cover>
+                <title id="title13">HellBoy</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:HellBoy</Songname>
+                    <Genre>Genre: Rock</Genre>
+                    <Producer>Producer: Chikne Helt</Producer>
+                    <Writer>Writer:Pantera</Writer>
+                    <band>Band:Pantera</band>
+                    <Date>Release Date: 12 Nov 2003</Date>
+                    <length>Length: 4:25</length>
+                     <Director> Director: Dick Helea</Director>
+                    <Album>Album:High</Album>
+                </moreInfo>
+            </song>
+            <!-- Song number 14-->
+            <song id="Song14" rating="6/10" Language="Nepali" Key="C" tags="ntsh" play="28544">
+                <!-- Detail of song-->
+                <Cover id="CoverImg14"></Cover>
+                <title id="title14">Pidit</title>
+                <moreInfo id="mainDetails">
+                    <Songname>Name:Pitid</Songname>
+                    <Genre>Genre: Pop</Genre>
+                    <Producer>Proucer:Bikesh Thapa</Producer>
+                     <Writer>Writer: Nitesh Jung</Writer>
+                    <Singer>Singer:Nitesh Kunwar</Singer>
+                    <Date>Release Date: 1 Nov 2019</Date>
+                    <length>Length: 1:21</length>
+                     <Director>Director:Bikesh Thapa</Director>
+                    <Album>Album: Budi</Album>
+                </moreInfo>
+            </song>
+            <!-- Song number 15-->
+            <song id="Song15" rating="6/10" Language="Hindi" Key="G" tags="rawal" play="555257">
+                <!-- Detail of song-->
+                <Cover id="CoverImg15"></Cover>
+                <title id="title15">Reprise</title>
+                <moreInfo id="SingelDetail">
+                    <Songname>Name: Reprise</Songname>
+                    <Genre>Genre: Metal</Genre>
+                    <Producer>Producer: Barshai shah</Producer>
+                     <Writer>Writer:Darsan Rawal</Writer>
+                    <band>Band: Rawal</band>
+                    <Date>Release Date: 12 Mar 2020</Date>
+                    <length>Length: 4:25</length>
+                     <Director> Director:Darsan Rawal</Director>
+                    <Album>Album: Mahi</Album>
+                    <Website>
+                    www.rawalmusic.com
+                    </Website>
+                </moreInfo>
+            </song>
+        </songs>
+        
+
+    </mainList>
+</NiyaazaStore>

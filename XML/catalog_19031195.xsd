@@ -1,0 +1,205 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NiyaazaStore">
+    <xs:annotation>
+      <xs:documentation>&lt;!DOCTYPE NiyaazaStore SYSTEM "catalog_19031195.dtd"></xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:annotation>
+            <xs:documentation>header</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Storedetails">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="logo">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="StoreName">
+                      <xs:annotation>
+                        <xs:documentation>informations</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="search">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="searchData"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="address">
+                      <xs:annotation>
+                        <xs:documentation>informations</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element type="xs:string" name="telephonenumber">
+                      <xs:annotation>
+                        <xs:documentation>informations</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element type="xs:string" name="urls">
+                      <xs:annotation>
+                        <xs:documentation>informations</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Copyright"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="menus">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="mainNav">
+                      <xs:annotation>
+                        <xs:documentation>Secondary nav for design</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="home">
+                            <xs:annotation>
+                              <xs:documentation>nav bar design</xs:documentation>
+                            </xs:annotation>
+                          </xs:element>
+                          <xs:element type="xs:string" name="shop"/>
+                          <xs:element type="xs:string" name="listen"/>
+                          <xs:element type="xs:string" name="download"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="secondNav">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="home">
+                            <xs:annotation>
+                              <xs:documentation>nav bar design</xs:documentation>
+                            </xs:annotation>
+                          </xs:element>
+                          <xs:element type="xs:string" name="shop"/>
+                          <xs:element type="xs:string" name="seprator"/>
+                          <xs:element type="xs:string" name="listen"/>
+                          <xs:element type="xs:string" name="download" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="mainList">
+          <xs:annotation>
+            <xs:documentation>header end</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Feature">
+                <xs:annotation>
+                  <xs:documentation>Image</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="featureOne"/>
+                    <xs:element type="xs:string" name="featureTwo"/>
+                    <xs:element type="xs:string" name="featureThree"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="songs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="borderLine">
+                      <xs:annotation>
+                        <xs:documentation>line</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="song" maxOccurs="unbounded" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>song number</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Cover">
+                            <xs:annotation>
+                              <xs:documentation>Song cover</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="title">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="moreInfo">
+                            <xs:annotation>
+                              <xs:documentation>Songs information</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Songname">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="id" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="Genre"/>
+                                <xs:element type="xs:string" name="Producer"/>
+                                <xs:element type="xs:string" name="Writer"/>
+                                <xs:element type="xs:string" name="Singer" minOccurs="0"/>
+                                <xs:element type="xs:string" name="band" minOccurs="0"/>
+                                <xs:element type="xs:string" name="Date"/>
+                                <xs:element type="xs:string" name="length"/>
+                                <xs:element type="xs:string" name="Director" minOccurs="0"/>
+                                <xs:element type="xs:string" name="Album" minOccurs="0"/>
+                                <xs:element type="xs:string" name="Website" minOccurs="0"/>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="id" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="optional"/>
+                        <xs:attribute type="xs:string" name="rating" use="optional"/>
+                        <xs:attribute type="xs:string" name="Language" use="optional"/>
+                        <xs:attribute type="xs:string" name="Key" use="optional"/>
+                        <xs:attribute type="xs:string" name="tags" use="optional"/>
+                        <xs:attribute type="xs:int" name="play" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

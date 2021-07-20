@@ -1,0 +1,1172 @@
+@font-face {
+    src: url(../Fonts/Poppins-Light.otf);
+    font-family: FontOne;
+  }
+  @font-face {
+    src: url(../Fonts/Poppins-Medium.otf);
+    font-family: Nimesh;
+  }
+  @font-face {
+    src: url(../Fonts/Poppins-Regular.otf);
+    font-family: titleFont;
+  }
+  NiyaazaStore {
+    display: inline;
+    height: 200vh;
+  }
+  header {
+    top: 0rem;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-rows: 70% 32%;
+    background-color: aqua;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(70, 7, 64);
+  }
+  Storedetails {
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255,255,255);
+    margin-bottom: 100px;
+  }
+  Storename{
+    flex: 10%;
+    
+  }
+  search{
+    flex: 30%;
+      border-radius: 50px;
+      margin-left: 30px;
+      height: 40%;
+      display: grid;
+      margin-right: 30px;
+      box-shadow: 1px 2px 2px 2px #e4e4e4;
+      grid-template-columns: auto;
+      margin-top: 42px;
+  }
+  urls{
+    flex: 10%;
+   
+  }
+  Copyright{
+      color: blueviolet;
+      height: 20px;
+      position: absolute;
+      margin-top: 67px;
+      margin-left: 71%;
+      width: 25%;
+  }
+  Storename,
+  address,
+  telephonenumber,
+  urls,Copyright {
+    font-size: 15px;
+    align-self: center;
+    font-family: FontOne;
+    color: #222222;
+    padding-left: 8px;
+  }
+  menus {
+    grid-row: 2/6;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 29% 20% 40% 5%;
+    grid-template-rows: 1fr;
+    background: linear-gradient(90deg, #621CD0 0%, #2A6EF9 100%);
+  }
+   mainNav {
+    grid-column: 2/3;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding-right: 40px;
+    font-family: FontOne;
+    cursor: pointer;
+  } 
+  secondNav{
+    grid-column: 4/5;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    color: rgb(255 255 255);
+    justify-content: space-around;
+    padding-right: 40px;
+    font-family: FontOne;
+    cursor: pointer;
+  }
+  
+  searchData{
+    padding-top: 10px;
+    padding-left: 30px;
+    background: url(../Images/loupe\ \(1\).png) 0 0;
+    background-position: 95% 55%;
+    background-repeat: no-repeat;
+    font-family: FontOne;
+  }
+  #StoreLogo {
+    display: flex;
+    grid-column: 1/2;
+    background-image: url(../Images/sound-waves.png);
+    background-position: right;
+    background-size: 80px;
+    width: 40px;
+    padding-top: 100px;
+    height: 25px;
+    justify-self: flex-end;
+  
+    flex: 5;
+    background-repeat: no-repeat;
+  } 
+  StoreName {
+    font-size: 26px;
+    display: flex;
+    align-self: center;
+    padding-left: 16px;
+    color: #222222;
+    font-family: Nimesh;
+  }
+  mainList {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-color: white
+  } 
+   Feature {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top:25px;
+    background-color: #F0F2F5;
+   
+  }
+  featureThree{
+    flex: 4;
+    height: 95%;
+    padding-left: 10px;
+    border-radius: 35px 0px 0px 35px;
+    background-image: url(../Images/sam-moqadam-7sW5-BQvm1s-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+     transition: transform 0.1s;
+  }
+  featureThree:hover {
+    -ms-transform: scale(.2s);
+    -webkit-transform: scale(.2); 
+    transform: scale(1.03); 
+  }
+  featureTwo{
+    height: 95%;
+    flex: 47%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(../Images/a-fun-loving-remix-of-the-minions-and-despicable-me-films.jpg);
+    background-size: 100% 100%;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    transition: transform 0.1s;
+  }
+  featureTwo:hover {
+      -ms-transform: scale(.2s);
+      -webkit-transform: scale(.2); 
+      transform: scale(1.03); 
+    }
+  featureOne{
+    flex: 4;
+    height: 95%;
+    background-image: url(../Images/zayn-malik-cover-bb1-2016-billboard-1500.jpg);
+    background-repeat: no-repeat;
+    border-radius: 0px 35px 35px 0px;
+    background-size: 100% 100%;
+    transition: transform 0.1s;
+    position: static;
+  }
+  featureOne:hover {
+    -ms-transform: scale(.2s);
+    -webkit-transform: scale(.2); 
+    transform: scale(1.03); 
+  }
+  
+  songs{
+  
+  width: 100%;
+  height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+    grid-template-rows: 500px 526px 526px 526px 526px 526px 80px 526px 526px;
+  }
+  
+  Songname,
+  Genre,
+  Producer,
+  Singer,
+  Writer,
+  Date,
+  length,
+  Website,
+  Album,
+  band,
+  Director {
+    font-family: Nimesh;
+    font-size: 15px;
+    color: black;
+    display: list-item;
+    list-style: circle;
+  }
+  
+  #Song1 {
+    background-color: rgb(235, 235, 235);
+      
+      grid-column: 1/4;
+      grid-row: 3/4;
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 21px;
+      margin-left: 1%;
+      -webkit-box-shadow: 0 8px 6px -6px black;
+      -moz-box-shadow: 0 8px 6px -6px black;
+      box-shadow: 9px 11px 19px -9px black;
+      cursor: pointer
+     
+  }
+  #title1,#doubleDetail:hover {
+    -ms-transform: scale(.2s);
+    -webkit-transform: scale(.2); 
+    transform: scale(1.01); 
+  }
+  
+  #title1 {
+    font-weight: bold;
+    margin-top: 18px;
+    height: 79px;
+    margin-left: 476px;
+    position: absolute;
+    z-index: 2;
+    transition: transform 0.1s;
+  }
+  #title2 {
+    margin-left: 36%;
+    font-weight: bold;
+    margin-top: 208px;
+  }
+  #doubleDetail {
+    margin-top: -3px;
+      border-radius: 24px;
+      grid-column: 2/3;
+      grid-row: 1/3;
+      display: grid;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+       background: linear-gradient(to right, #E5E6E6 50%, rgba(0,0,0,0.1), transparent 100%); 
+      margin-left: -234px;
+      text-align: justify;
+      width: 58%;
+      border: 2px beige;
+      height: 259px;
+      position: absolute;
+      margin-left: 0;
+      padding-top: 167px;
+      padding-bottom: 105px;
+      padding-left: 115px;
+      grid-template-columns: 25% 35%;
+      grid-template-rows: 54px 48px 52px 45px;
+      padding-right: 68px;
+      transition: transform 0.1s;
+  }
+  
+  title {
+    font-family: titleFont;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  #CoverImg1 {
+       
+      margin-top: -1px;
+      height: 100%;
+      flex: 20%;
+      background-repeat: no-repeat;
+      background-image: url(../Images/cover.jpg);
+      border-radius: 22px;
+  }
+   
+  #Song2 {
+   background-color: rgb(235, 235, 235);
+   display: grid;
+   grid-template-rows: 50% 15% 35%;
+   border-radius: 24px;
+   margin-left: 3%;
+   width: 90%;
+      box-shadow: 2px 1px 31px -2px black;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    
+  }
+  #mainDetails {
+    display: flex;
+    margin-top: 187px;
+    margin-left: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    grid-template-rows: 48px 48px 52px 45px;
+    grid-template-columns: 25% 58%;
+    background-color: #E5E6E6;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    border-radius: 22px;
+    cursor: pointer
+  }
+  #mainDetails:before{
+    content: '';
+    transition: 0.5s;
+    z-index: 1;
+    bottom: 0;
+    padding-top: 2px;
+    background: linear-gradient(
+  0deg
+  , #000 50%,transparent);
+    overflow: hidden;
+  } 
+  #CoverImg6:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+  #Song6:hover #mainDetails{
+    margin-top:-56px; 
+    cursor: pointer
+  }
+  #Song6:hover #CoverImg6{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  #Song6:hover #title6{
+    margin-top:-30px;
+  }
+  #Song7:hover #title7{
+    margin-top:-30px;
+  }
+  #Song8:hover #title8{
+    margin-top:-30px;
+  }
+  #Song9:hover #title9{
+    margin-top:-30px;
+  }
+  #Song10:hover #title10{
+    margin-top:-30px;
+  }
+  #Song11:hover #title11{
+    margin-top:-30px;
+  }
+  #Song12:hover #title12{
+    margin-top:-30px;
+  }
+  #Song13:hover #title13{
+    margin-top:-30px;
+  }
+  #Song14:hover #title14{
+    margin-top:-30px;
+  }
+  #Song2:hover #title2{
+    margin-top:-30px;
+  }#Song3:hover #title3{
+    margin-top:-30px;
+  }#Song4:hover #title4{
+    margin-top:-30px;
+  }#Song5:hover #title5{
+    margin-top:-30px;
+  }
+  
+   #CoverImg7:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song7:hover #mainDetails{
+    margin-top: -56px; 
+    cursor: pointer
+  }
+  
+  #Song7:hover #CoverImg7{
+   
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  
+  #CoverImg8:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song8:hover #mainDetails{
+    margin-top: -56px; 
+    cursor: pointer
+  }
+  
+  #Song8:hover #CoverImg8{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  
+  
+  
+  #CoverImg9:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song9:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song9:hover #CoverImg9{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  #CoverImg10:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song10:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song10:hover #CoverImg10{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px; 
+  }
+  
+  
+  
+  #CoverImg11:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song11:hover #mainDetails{
+    margin-top: -56px; 
+    cursor: pointer
+  }
+  
+  #Song11:hover #CoverImg11{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  #CoverImg12:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song12:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song12:hover #CoverImg12{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  #CoverImg13:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song13:hover #mainDetails{
+    margin-top: -56px; 
+    cursor: pointer
+  }
+  
+  #Song13:hover #CoverImg13{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px; 
+  }
+  
+  
+  
+  
+  #CoverImg14:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song14:hover #mainDetails{
+    margin-top: -56px; 
+    cursor: pointer
+  }
+  
+  #Song14:hover #CoverImg14{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px; 
+  }
+  
+  
+  #CoverImg2:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song2:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song2:hover #CoverImg2{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  #CoverImg3:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song3:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song3:hover #CoverImg3{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  
+  
+  #CoverImg4:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song4:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song4:hover #CoverImg4{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  
+  #CoverImg5:before{
+    content: '';
+   
+    transition: 0.5s;
+    z-index:1 ;
+    bottom: 0;
+     
+     overflow: hidden;
+  }
+   #Song5:hover #mainDetails{
+    margin-top: -56px;
+    cursor: pointer
+  }
+  
+  #Song5:hover #CoverImg5{
+    width:40%;
+    height:60%; 
+    background-size: 100% 100%;
+    margin-top: 2%;
+    margin-left: 30%; 
+    border-radius: 22px;
+  }
+  #CoverImg2 {
+    background-image: url(../Images/perfect.jpg);
+    background-position: center;
+    background-size: 275px;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+   
+   
+  #Song3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-rows: 50% 15% 35%;
+    border-radius: 24px;
+    margin-left: 3%;
+    width: 90%;
+       box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg3 {
+    background-image: url(../Images/senorita.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title3 {
+    margin-left: 29%;
+    font-weight: bold;
+    margin-top: 208px;
+  }
+  #desc3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  #Song4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+   background-color: rgb(235, 235, 235);
+   display: grid;
+   grid-template-rows: 50% 15% 35%;
+   border-radius: 24px;
+   margin-left: 3%;
+   width: 90%;
+      box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg4 {
+    background-image: url(../Images/sombadhan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title4 {
+    margin-left: 23%;
+    font-weight: bold;
+    margin-top: 208px;
+  } 
+  
+  #Song5 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+   background-color: rgb(235, 235, 235);
+   display: grid;
+   grid-template-rows: 50% 15% 35%;
+   border-radius: 24px;
+   margin-left: 3%;
+   width: 90%;
+  box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg5 {
+    background-image: url(../Images/godsplan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+   #title5 {
+    margin-left: 28%;
+    font-weight: bold;
+    margin-top: 208px;
+  } 
+   
+  
+  
+  #Latest {
+    margin-top: -44px;
+    margin-left: 15px;
+    font-family: FontOne;
+    font-size: 24px;
+    font-weight: bold;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    border-top: 2px black solid;
+  }
+  
+  #Song6 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-rows: 50% 15% 35%;
+    border-radius: 24px;
+    margin-left: 3%;
+    width: 90%;
+       box-shadow: 2px 1px 31px -2px black;
+  }
+  
+  #CoverImg6 {
+    background-image: url(../Images/heaven.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title6 {
+    margin-left: 33%;
+      font-weight: bold;
+      margin-top: 198px;
+  }
+  
+  #Song7 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-rows: 50% 15% 35%;
+    border-radius: 24px;
+    margin-left: 3%;
+    width: 90%;
+    box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg7 {
+        background-image: url(../Images/pillowtalk.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 180%;
+      background-color: rebeccapurple;
+      border-top-left-radius: 22px;
+      border-top-right-radius: 22px;
+      transition-property: height;
+      transition-duration: 1s;
+  }
+  #title7 {
+    margin-left: 26%;
+      font-weight: bold;
+      margin-top: 197px;
+  }
+  
+  #Song8 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-rows: 50% 15% 35%;
+    border-radius: 24px;
+    margin-left: 3%;
+    width: 90%;
+       box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg8 {
+    background-image: url(../Images/bedroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title8 {
+    margin-left: 26%;
+    font-weight: bold;
+    margin-top: 198px;
+  }
+  
+  #Song9 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-rows: 50% 15% 35%;
+    border-radius: 24px;
+    margin-left: 3%;
+    width: 90%;
+       box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg9 {
+    background-image: url(../Images/closer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title9 {
+    margin-left: 35%;
+      font-weight: bold;
+      margin-top: 198px;
+  }
+  
+  #Song10 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+   background-color: rgb(235, 235, 235);
+   display: grid;
+   grid-template-rows: 50% 15% 35%;
+   border-radius: 24px;
+   margin-left: 3%;
+   width: 90%;
+      box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg10 {
+    background-image: url(../Images/faded.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title10 {
+    margin-left: 32%;
+    font-weight: bold;
+    margin-top: 208px;
+  }
+  
+  #Song11 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-rows: 50% 15% 35%;
+    border-radius: 24px;
+    margin-left: 3%;
+    width: 90%;
+       box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg11 {
+    background-image: url(../Images/friends.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title11 {
+    margin-left: 36%;
+    font-weight: bold;
+    margin-top: 208px;
+  }
+  
+  
+  #Song12 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+   background-color: rgb(235, 235, 235);
+   display: grid;
+   grid-template-rows: 50% 15% 35%;
+   border-radius: 24px;
+   margin-left: 3%;
+   width: 90%;
+      box-shadow: 2px 1px 31px -2px black;
+  
+  
+  }
+  #CoverImg12 {
+    background-image: url(../Images/nightchanges.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title12 {
+    margin-left: 36%;
+    font-weight: bold;
+    margin-top: 208px;
+  }
+  
+  #Song13 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+  background-color: rgb(235, 235, 235);
+  display: grid;
+  grid-template-rows: 50% 15% 35%;
+  border-radius: 24px;
+  margin-left: 3%;
+  width: 90%;
+  
+  box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg13 {
+    background-image: url(../Images/hellboy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title13 {
+    margin-left: 36%;
+      font-weight: bold;
+      margin-top: 208px;
+  }
+  
+  #Song14 {
+    grid-column:4/5;
+    grid-row: 4/5;
+   background-color: rgb(235, 235, 235);
+   display: grid;
+   grid-template-rows: 50% 15% 35%;
+   border-radius: 24px;
+   margin-left: 3%;
+   width: 90%;
+   
+      box-shadow: 2px 1px 31px -2px black;
+  }
+  #CoverImg14 {
+    background-image: url(../Images/pidit.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180%;
+    background-color: rebeccapurple;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+  #title14 {
+    margin-left: 36%;
+    font-weight: bold;
+    margin-top: 208px;
+  }
+  
+  
+  length{
+    display: list-item;
+    list-style: circle;
+  }
+  
+  #Song15 {
+    background-color: rgb(235, 235, 235);
+      
+    grid-column: 1/5;
+    grid-row: 5/6;;
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 21px;
+      margin-left: 1%;
+      -webkit-box-shadow: 0 8px 6px -6px black;
+      -moz-box-shadow: 0 8px 6px -6px black;
+      box-shadow: 9px 11px 19px -9px black;
+      cursor: pointer
+     
+  }
+  #title15,#SingelDetail:hover {
+    -ms-transform: scale(.2s);
+    -webkit-transform: scale(.2); 
+    transform: scale(1.01); 
+  }
+  
+  #title15 {
+    font-weight: bold;
+    margin-top: 18px;
+    height: 79px;
+    padding-left: 257px;
+    margin-left: 247px;
+    position: absolute;
+    z-index: 2;
+    transition: transform 0.1s;
+  }
+  
+  #SingelDetail {
+    margin-top: -3px;
+      border-radius: 24px;
+      grid-column: 2/3;
+      grid-row: 1/3;
+      display: grid;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+       background: linear-gradient(to right, #E5E6E6 50%, rgba(0,0,0,0.1), transparent 100%); 
+      margin-left: -234px;
+      text-align: justify;
+      width: 58%;
+      border: 2px beige;
+      height: 259px;
+      position: absolute;
+      margin-left: 0;
+      padding-top: 167px;
+      padding-bottom: 105px;
+      padding-left: 115px;
+      grid-template-columns: 25% 35%;
+      grid-template-rows: 54px 48px 52px 45px;
+      padding-right: 68px;
+      transition: transform 0.1s;
+  }
+  
+  #CoverImg15 {
+      margin-top: -1px;
+      margin-left: 305px;
+      height: 100%;
+      flex: 20%;
+      background-color: red;
+      background: url(../Images/ni.jpg);
+      background-repeat: no-repeat;
+      background-image: url(../Images/Ek\ Tarfa\ Reprise.jpg);
+      border-radius: 22px;
+  }
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
